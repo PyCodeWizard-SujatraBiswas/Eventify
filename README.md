@@ -64,3 +64,8 @@ We strictly adhere to GitHub Flow:
 1. Clone repository: `git clone https://github.com/PyCodeWizard-SujatraBiswas/Eventify.git`
 2. Run Docker containers: `docker-compose up --build`
 3. Access UI: `http://localhost:3000`
+
+## Software Design
+Eventify follows a modular Layered (MVC) architectural pattern built with Node.js/Express and fully containerized using Docker. The frontend interface communicates via RESTful API routes, keeping business logic cleanly separated from presentation handlers to ensure low coupling and high maintainability.
+
+![Software Architecture Diagram](docs/design/architecture-diagram.drawio.png)
